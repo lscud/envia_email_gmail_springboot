@@ -16,5 +16,17 @@ spring:
   profiles:
     active: test
 
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: luisscudeler@gmail.com
+    password: zdrmlujgeyrwnlmn
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls.enable: true
+#https://support.google.com/accounts/answer/185833  #PAra criar a senha de app de 16 digitos acima consultar este site
+
 server:
   port: 8080
